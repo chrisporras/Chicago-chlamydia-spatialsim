@@ -72,19 +72,19 @@ P=GTransProb(ExtraData, DistanceMat, alpha)
 Population=ExtraData$X2010.Population
 n= ceiling(.01*sum(Population))###########number of individuals total
 NeighborhoodVec=sample(1:length(ExtraData$Neighborhood), n, replace=TRUE, prob = Population/sum(Population)) ####Who is in what neighborhood
-Partner=numeric()
-PP=c(21.5,59.6,10.6/3, 10.6/3, 10.6/3, 5)/sum(c(21.5,59.6,10.6/3, 10.6/3, 10.6/3, 5))
+PP=c(21.5,59.6,10.6/3, 10.6/3, 10.6/3, 5)/sum(c(21.5,59.6,10.6/3, 10.6/3, 10.6/3, 5)) ####Probability distribution for number of partners
 numpartners=sample(0:5,n, prob=PP, replace = TRUE)
-numpartners[which(numpartners==5)]=numpartners[which(numpartners==5)]+rpois(length(which(numpartners==5)),1)
+numpartners[which(numpartners==5)]=numpartners[which(numpartners==5)]+rpois(length(which(numpartners==5)),1) ###Upades Tail of Number of Partners
 Partners=rep(list(),n) #######List Containing Everyone's Partners
 ActualConnects=rep(0,n) ######## List Containing Current Partners
 ElegibleNeighborhoods=1:length(ExtraData$Neighborhood)
 
-HealthInsure=numeric()
+PovPer=numeric() ####Holds Poverty Status of Each Individual
 
-for (i in 1:n){
-  HealthInsure[i]=sample(1:2, 1, prob = c(ExtraData$Percent_without_insurance[NeighborhoodVec[i]]/100, 1-ExtraData$Percent_without_insurance[NeighborhoodVec[i]]/100))
-  if (numpartners[i]>ActualConnects[i]){ #########If you have connects to Be filled
+for (i in 1:n){ ####For every Person
+  #####Give them Poverty Status Based on Neighborhood
+  PovPer[i]=sample(1:2, 1, prob = c(ExtraData$Percent_Poverty[NeighborhoodVec[i]]/100, 1-ExtraData$Percent_Poverty[NeighborhoodVec[i]]/100))
+  if (numpartners[i]>ActualConnects[i]){ #########If you have connects to be filled
     if (length(ElegibleNeighborhoods)>1){ #####See if we can pick neighborhoods
       ContactNeigh=sample(ElegibleNeighborhoods, (numpartners[i]-ActualConnects[i]), replace=TRUE, prob=P[NeighborhoodVec[i],])}else{
         ContactNeigh=ElegibleNeighborhoods
@@ -116,10 +116,9 @@ for (i in 1:n){
 
 ########################Disease Dynamics #####################################################
 
-MaxTime=1200
-#MaxTime=500
-beta=0.6
-delta=52/(365) ####maximim recovery rate
+MaxTime=365
+beta=0.6 ###percent chance you contract from an encounter with an infected person
+delta=52/(365) ####rate at
 deltavec=matrix(c(delta*exp(.5*(-(ClinicDist/max(ClinicDist))^2)), rep(delta, length(ExtraData$Neighborhood))), ncol=2)
 #deltavec= matrix(c(delta* 50/365*(ClinicDist/max(ClinicDist)), rep(delta, length(ExtraData$Neighborhood))), ncol=2)
 meanencounterrate=60/365
@@ -136,6 +135,7 @@ for (t in 1:MaxTime){
       
       if (runif(1)<(meanencounterrate+ 50/365*(ActualConnects[i]-1))){ #####If you Have a Contact
         Partner=sample(Partners[[i]], 1) ######Choose A Partner
+        
         if (S[i,t]==0){ #### If susceptible, calculate probability of infection
           if (runif(1)<beta*S[Partner,t]){ #####If less than prob, you are infected
             S[i, t+1]=1
@@ -149,7 +149,7 @@ for (t in 1:MaxTime){
     
     
     if (S[i,t]==1){ ######Occurs Regardless of Number of Partners
-      if (runif(1)< deltavec[NeighborhoodVec[i], HealthInsure[i]]){ #later will change as a function of distance from clinics * exp((-log(52)*ClinicDist[NeighborhoodVec[i]]/max(ClinicDist))) ##log52 ensures that min period is around 1 year
+      if (runif(1)< deltavec[NeighborhoodVec[i], PovPer[i]]){ #later will change as a function of distance from clinics * exp((-log(52)*ClinicDist[NeighborhoodVec[i]]/max(ClinicDist))) ##log52 ensures that min period is around 1 year
         S[i,t+1]=0
       }else{S[i,t+1]=1}
     }
