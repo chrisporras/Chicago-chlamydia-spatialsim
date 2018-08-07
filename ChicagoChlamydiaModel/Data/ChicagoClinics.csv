@@ -1,52 +1,59 @@
-"","Clinic.Name","Address","lon","lat"
-"1","Quest Diagnostics","8751 S Greenwood Ave, Ste 106 Chicago, IL 60619",-87.5959166,41.7350784
-"2","Quest Diagnostics","111 N Wabash Ave, Ste 1514 Chicago, IL 60602",-87.6257547,41.8834746
-"3","LabCorp","111 N. Wabash Avenue Ste 1710 Chicago, IL 60602",-87.6257547,41.8834746
-"4","Access Community Health Network","7200 S Ingleside Ave Chicago, IL 60619",-87.6023599,41.7640867
-"5","Provident Hospital of Cook County","500 E 51st St Rm 7067 Chicago, IL 60615",-87.6134697,41.8026887
-"6","Access Community Health Network","5401 S Wentworth Ave Chicago, IL 60609",-87.6290854,41.7959939
-"7","Chicago Department of Public Health","641 W 63rd St Lower Level Chicago, IL 60621",-87.6413809,41.7795169
-"8","Access Community Health Network","654 E 47th St Chicago, IL 60653",-87.6093424,41.8097075
-"9","Near North Health Services Corporation","4259 S Berkley Ave Chicago, IL 60653",-87.6001608,41.8171246
-"10","Planned Parenthood of Illinois","6059 S Ashland Chicago, IL 60636",-87.6639504,41.7832396
-"11","Access Community Health Network","8300 S Brandon Ave Chicago, IL 60617",-87.547041,41.7445431
-"12","Access Community Health Network","8234 S Ashland Ave Chicago, IL 60620",-87.6636229,41.7438558
-"13","Mercy Hospital and Medical Center","2525 S Michigan Family Health Center Chicago, IL 60616",-87.6219162,41.8463518
-"14","Christian Community Health Center","9718 S Halsted St Chicago, IL 60628",-87.6433909,41.7168916
-"15","Brothers Health Collective","2517 S Archer Ave Chicago, IL 60608",-87.6469756,41.8467267
-"16","Access Commnutiy Health Network","3450 S Archer Ave Chicago, IL 60608",-87.6766358,41.8313448
-"17","Access Community Health Network","1817 S Loomis St Chicago, IL 60608",-87.6610029,41.8573302
-"18","Access Community Health Network","2533 W Cermak Rd Chicago, IL 60608",-87.6892433,41.8505636
-"19","Chicago Department of Public Health","200 E 115th St Chicago, IL 60628",-87.6176974,41.685528
-"20","Planned Parenthood of Illinois","11250 S Halsted Chicago, IL 60628",-87.6426393,41.688852
-"21","UIC-Uptown HIV Primary Care Clinic","845 W Wilson Ave., Chicago, IL",-87.6520244,41.9652122
-"22","Roseland STI Specialty Clinic","200 E. 115th St. Chicago, IL ",-87.6176974,41.685528
-"23","Austin STI Specialty Clinic","4909 W. Division, Suite 411 Chicago, IL ",-87.7492299,41.9019675
-"24","Lakeview STI Specialty Clinic","2849 N. Clark, 1st Fl Chicago, IL ",-87.6458108,41.9341504
-"25","e7 Health","29 E Madison St #1640, Chicago, IL 60602",-87.6266776,41.8819477
-"26","Englewood Neighborhood Health Clinic","641 W 63rd St, Chicago, IL 60637",-87.6413809,41.7795169
-"27","Planned Parenthood - Loop Health Center","18 S. Michigan Avenue, Chicago, IL 60603",-87.625001,41.8814882
-"28","Heartland Alliance","400 W 76th St Ste 100 Chicago, IL 60620",-87.6350643,41.7565253
-"29","Brothers Health Collective","1642 W 59th St 2nd Fl Chicago, IL 60636",-87.6662582,41.7870462
-"30","South Shore Hospital","2525 E 83rd St Chicago, IL 60617",-87.5626436,41.7442522
-"31","Le Penseur Youth and Family Services Incorporated","8550 S Manistee Ave Chicago, IL 60617",-87.5577587,41.7393877
-"32","Advocate Trinity Hospital Emergency Department","2320 E 93rd St Chicago, IL 60617",-87.5679334,41.7265222
-"33","University of Illinois at Chicago School of Public Health","8910 S Commercial Chicago, IL 60614",-87.551709,41.733249
-"34","Mercy Hospital and Medical Center","2525 S Michigan Family Health Center Chicago, IL 60616",-87.6219162,41.8463518
-"35","Christian Community Health Center","9718 S Halsted St Chicago, IL 60628",-87.6433909,41.7168916
-"36","Northwestern Memorial Hospital","251 E Huron Arkes Pavilion 9th Fl Ste 940 Chicago, IL 60611",-87.6212186,41.8945708
-"37","Quest Diagnostics","150 E Huron St Ste 825 Chicago, IL 60611",-87.6232432,41.8952243
-"38","Planned Parenthood of Illinois","1200 N LaSalle St Chicago, IL 60610",-87.6333294,41.9040627
-"39","Near North Health Service Corporation","1276 N Clybourn Ave Chicago, IL 60610",-87.6422731,41.9052536
-"40","LabCorp","233 E Erie St Ste 602 Chicago, IL 60611",-87.6216074,41.8939775
-"41","STDTestExpress","328 S Jefferson St Ste 770 Chicago, IL 60661",-87.6427555,41.8771324
-"42","Haymarket Center","22 N Sagamon Chicago, IL 60607",-87.651215,41.8825684
-"43","Quest Diagnostics","1460 N Halsted Stste 201 Chicago, IL 60642",-87.6484617,41.9080351
-"44","Brothers Health Collective","2517 S Archer Ave Chicago, IL 60608",-87.6469756,41.8467267
-"45","Erie Family Health Center Incorporated","1701 W Superior St 2nd Fl Chicago, IL 60622",-87.6700568,41.8947737
-"46","Cook County Health and Hospitals System","2020 W Harrison St Chicago, IL 60612",-87.6771059,41.8746414
-"47","Planned Parenthood of Illinois","1152 N Milwaukee Ave Chicago, IL 60642",-87.6656208,41.9025147
-"48","Access Community Health Network","2409 W Warren Blvd Chicago, IL 60612",-87.6868112,41.8818154
-"49","Chicago House and Social Services Agency Incorporated","1925 N Clybourn Ste 401 Chicago, IL 60614",-87.6564561,41.9161597
-"50","Access Community Health Network","2020 N Clybourn Ave Chicago, IL 60614",-87.6600975,41.9183776
-"51","Universal Family Connection Incorporated","1350 W 103rd St Chicago, IL 60643",-87.6571777,41.7070284
+Clinic.Name,Address,lon,lat,Free or not
+Quest Diagnostics,"8751 S Greenwood Ave, Ste 106 Chicago, IL 60619",-87.5959166,41.7350784,not
+Quest Diagnostics,"111 N Wabash Ave, Ste 1514 Chicago, IL 60602",-87.6257547,41.8834746,not
+LabCorp,"111 N. Wabash Avenue Ste 1710 Chicago, IL 60602",-87.6257547,41.8834746,not
+Access Community Health Network,"7200 S Ingleside Ave Chicago, IL 60619",-87.6023599,41.7640867,not
+Provident Hospital of Cook County,"500 E 51st St Rm 7067 Chicago, IL 60615",-87.6134697,41.8026887,not
+Access Community Health Network,"5401 S Wentworth Ave Chicago, IL 60609",-87.6290854,41.7959939,not
+Chicago Department of Public Health,"641 W 63rd St Lower Level Chicago, IL 60621",-87.6413809,41.7795169,not
+Access Community Health Network,"654 E 47th St Chicago, IL 60653",-87.6093424,41.8097075,not
+Near North Health Services Corporation,"4259 S Berkley Ave Chicago, IL 60653",-87.6001608,41.8171246,not
+Planned Parenthood of Illinois,"6059 S Ashland Chicago, IL 60636",-87.6639504,41.7832396,not
+Access Community Health Network,"8300 S Brandon Ave Chicago, IL 60617",-87.547041,41.7445431,not
+Access Community Health Network,"8234 S Ashland Ave Chicago, IL 60620",-87.6636229,41.7438558,not
+Mercy Hospital and Medical Center,"2525 S Michigan Family Health Center Chicago, IL 60616",-87.6219162,41.8463518,not
+Christian Community Health Center,"9718 S Halsted St Chicago, IL 60628",-87.6433909,41.7168916,not
+Brothers Health Collective,"2517 S Archer Ave Chicago, IL 60608",-87.6469756,41.8467267,not
+Access Commnutiy Health Network,"3450 S Archer Ave Chicago, IL 60608",-87.6766358,41.8313448,not
+Access Community Health Network,"1817 S Loomis St Chicago, IL 60608",-87.6610029,41.8573302,not
+Access Community Health Network,"2533 W Cermak Rd Chicago, IL 60608",-87.6892433,41.8505636,not
+Chicago Department of Public Health,"200 E 115th St Chicago, IL 60628",-87.6176974,41.685528,not
+Planned Parenthood of Illinois,"11250 S Halsted Chicago, IL 60628",-87.6426393,41.688852,not
+UIC-Uptown HIV Primary Care Clinic,"845 W Wilson Ave., Chicago, IL",-87.6520244,41.9652122,not
+Roseland STI Specialty Clinic,"200 E. 115th St. Chicago, IL ",-87.6176974,41.685528,Free
+Austin STI Specialty Clinic,"4909 W. Division, Suite 411 Chicago, IL ",-87.7492299,41.9019675,Free
+Lakeview STI Specialty Clinic,"2849 N. Clark, 1st Fl Chicago, IL ",-87.6458108,41.9341504,Free
+e7 Health,"29 E Madison St #1640, Chicago, IL 60602",-87.6266776,41.8819477,not
+Englewood Neighborhood Health Clinic,"641 W 63rd St, Chicago, IL 60637",-87.6413809,41.7795169,not
+Planned Parenthood - Loop Health Center,"18 S. Michigan Avenue, Chicago, IL 60603",-87.625001,41.8814882,not
+Heartland Alliance,"400 W 76th St Ste 100 Chicago, IL 60620",-87.6350643,41.7565253,not
+Brothers Health Collective,"1642 W 59th St 2nd Fl Chicago, IL 60636",-87.6662582,41.7870462,not
+South Shore Hospital,"2525 E 83rd St Chicago, IL 60617",-87.5626436,41.7442522,not
+Le Penseur Youth and Family Services Incorporated,"8550 S Manistee Ave Chicago, IL 60617",-87.5577587,41.7393877,not
+Advocate Trinity Hospital Emergency Department,"2320 E 93rd St Chicago, IL 60617",-87.5679334,41.7265222,not
+University of Illinois at Chicago School of Public Health,"8910 S Commercial Chicago, IL 60614",-87.551709,41.733249,not
+Mercy Hospital and Medical Center,"2525 S Michigan Family Health Center Chicago, IL 60616",-87.6219162,41.8463518,not
+Christian Community Health Center,"9718 S Halsted St Chicago, IL 60628",-87.6433909,41.7168916,not
+Northwestern Memorial Hospital,"251 E Huron Arkes Pavilion 9th Fl Ste 940 Chicago, IL 60611",-87.6212186,41.8945708,not
+Quest Diagnostics,"150 E Huron St Ste 825 Chicago, IL 60611",-87.6232432,41.8952243,not
+Planned Parenthood of Illinois,"1200 N LaSalle St Chicago, IL 60610",-87.6333294,41.9040627,not
+Near North Health Service Corporation,"1276 N Clybourn Ave Chicago, IL 60610",-87.6422731,41.9052536,not
+LabCorp,"233 E Erie St Ste 602 Chicago, IL 60611",-87.6216074,41.8939775,not
+STDTestExpress,"328 S Jefferson St Ste 770 Chicago, IL 60661",-87.6427555,41.8771324,not
+Haymarket Center,"22 N Sagamon Chicago, IL 60607",-87.651215,41.8825684,not
+Quest Diagnostics,"1460 N Halsted Stste 201 Chicago, IL 60642",-87.6484617,41.9080351,not
+Brothers Health Collective,"2517 S Archer Ave Chicago, IL 60608",-87.6469756,41.8467267,not
+Erie Family Health Center Incorporated,"1701 W Superior St 2nd Fl Chicago, IL 60622",-87.6700568,41.8947737,not
+Cook County Health and Hospitals System,"2020 W Harrison St Chicago, IL 60612",-87.6771059,41.8746414,not
+Planned Parenthood of Illinois,"1152 N Milwaukee Ave Chicago, IL 60642",-87.6656208,41.9025147,not
+Access Community Health Network,"2409 W Warren Blvd Chicago, IL 60612",-87.6868112,41.8818154,not
+Chicago House and Social Services Agency Incorporated,"1925 N Clybourn Ste 401 Chicago, IL 60614",-87.6564561,41.9161597,not
+Access Community Health Network,"2020 N Clybourn Ave Chicago, IL 60614",-87.6600975,41.9183776,not
+Universal Family Connection Incorporated,"1350 W 103rd St Chicago, IL 60643",-87.6571777,41.7070284,not
+Broadway Youth Center,"1645 W. Jackson Blvd., Chicago, IL, 60612",-87.6684,41.877257,Free
+Adolescent Family Center at Rush,"4009 N. Broadway St. Chicago, IL, 60613",-87.650474,41.954989,Free
+Community Health Center,"2744 W. 63rd St. Chicago, IL, 60629",-87.692818,41.779335,Free
+Erie Teen and Young Adult Health Center,"2418 W. Division St. Chicago,IL 60622",-87.687774,41.903363,Free
+Friend Family Cottage Grove Center,"800 E. 55th St. Chicago, IL 60615",-87.605686,41.795571,Free
+Health Services,"2611 W. Chicago Ave. Chicago, IL 60622",-87.692395,41.895378,Free
+Medical Services at Frien Family Western Center,5843 S. Western Ave. Chicago IL 60636,-87.683268,41.787144,Free
